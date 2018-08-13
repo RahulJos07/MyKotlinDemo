@@ -4,4 +4,11 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="Class">
+        <item>Select Standard</item>
+        <item>Standard_One</item>
+        <item>Standard_Two</item>
+        <item>Standard_Three</item>
+        <item>Standard_Four</item>
+    </string-array>
 </resources>

@@ -4,12 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".CusListView.Cus_ListView">
-    <ListView
+    tools:context=".RecyclerView.Recycler_View_Cus">
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/cus_list_view"
-        android:dividerHeight="10dp"
-        android:layout_margin="10dp"
-        android:divider="@android:color/transparent"/>
+        android:layout_height="match_parent">
+    </android.support.v7.widget.RecyclerView>
 </RelativeLayout>

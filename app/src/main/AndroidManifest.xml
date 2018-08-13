@@ -11,13 +11,17 @@
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity" />
         <activity android:name=".SecondActivity" />
-        <activity android:name=".CusListView.Cus_ListView">
+        <activity android:name=".CusListView.Cus_ListView" />
+        <activity android:name=".RecyclerView.Recycler_View_Cus"></activity>
+        <activity android:name=".Sqlite.Activity.ListGettingData">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Sqlite.Activity.InsertData"></activity>
+        <activity android:name=".Sqlite.Activity.UpdateData"></activity>
     </application>
 
 </manifest>
